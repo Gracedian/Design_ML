@@ -1,0 +1,81 @@
+*{
+    position: relative;
+    padding: 0;
+    margin: auto;
+    width: 900;
+    font-family: roboto;
+    font-size: 8;
+    color: white;
+}
+ 
+body{
+    background: black;
+}
+ 
+div.konten{
+    margin: auto;
+    padding: 0;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background-size: 100%;
+}
+div.konten2{
+    margin: auto;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background-size: 100%;
+}
+div.kepala{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+}
+ 
+div.kepala h2.judul{
+    color: white;
+    font-size: 
+    font-weight: normal;
+    line-height: 40px;
+    display: inline-block;
+}
+ 
+div.lock{
+    background-image: url("login.png");
+    background-position: center;
+    background-size: 38px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    float: left;
+    margin-right: 10px;
+}
+form { 
+    width: 500px;
+    margin: 50px auto;
+}
+.search{
+    padding: 8px 15px;
+    background:rgba(50,50,50,0.5);
+    border:0px solid #dbdbdb;
+}
+.button{
+    font-size: 5;
+    position: relative;
+    padding: 6px 15px;
+    left: -8px;
+    border:2px solid blue;
+    background-color: black;
+    color: #fafafa;
+}
+.button:hover{
+    background-color: #fafafa;
+    color: #207cca;
+}
